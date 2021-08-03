@@ -3,8 +3,8 @@ const path = require('path');
 
 const app = express();
 
-app.use(express.static('./dist/mobilidade-eletrica'));
+app.use(express.static(__dirname + '/dist/mobilidade-eletrica'));
 
-app.get('/*', (req, res) => res.sendFile('index.html'), {root: 'dist/mobilidade-eletrica'});
+app.get('/*', (req, res) => res.sendFile(__dirname + "/dist/mobilidade-eletrica/index.html"));
 
 app.listen(process.env.PORT || 8080);
