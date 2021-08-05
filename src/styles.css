@@ -105,7 +105,7 @@ i {
 }
 
 .menu li:hover {
-    border-bottom: solid 1px #fff;
+    border-bottom: solid 1px #ed145b;
 }
 
 .menu li a {
@@ -139,7 +139,7 @@ i {
 .img-banner {
     width: 70%;
     margin: 100px 0px;
-    background-image: url(./app/images/logofiap.png);
+    background-image: url(assets/images/logofiap.png);
 }
 
 .info-content h1 {
@@ -151,12 +151,15 @@ i {
     margin-bottom: 50px;
 }
 
+.info-content p {
+    text-align: center;
+}
+
 header {
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    min-height: 100vh;
-    background-image: url(./app/images/bground.jpg);
+    background-image: url(assets/images/bground.jpg);
 }
 
 .header-info-wrapper {
@@ -171,7 +174,7 @@ header {
 }
 
 .header-info p {
-    text-align: justify;
+    text-align: center;
 }
 
 .header-banner {
@@ -266,25 +269,29 @@ h2 {
     box-shadow: 5px 1px 5px #000;
 }
 
-/* . {
-    background-image: url(../images/integrantes/.jpg);
+.helouise {
+    background-image: url(assets/images/integrantes/helouise.JPG);
 }
 
-. {
-    background-image: url(../images/integrantes/.jpg);
+.ronqui {
+    background-image: url(assets/images/integrantes/Ronqui.jpg);
 }
 
-. {
-    background-image: url(../images/integrantes/.jpg);
+.gabriel {
+    background-image: url(assets/images/integrantes/gabriel.jpg);
 }
 
-. {
-    background-image: url(../images/integrantes/.jpg);
+.caio {
+    background-image: url(assets/images/integrantes/Caio.JPG);
 }
 
-. {
-    background-image: url(../images/integrantes/.jpg);
-} */
+.leonardo {
+    background-image: url(assets/images/integrantes/leonardo.JPG);
+}
+
+.mateus {
+    background-image: url(assets/images/integrantes/mateus.JPG);
+}
 
 .footer {
     display: flex;
@@ -435,7 +442,7 @@ h4.text-centered {
         width: 100%;
     }
     .img-banner {
-        width: 50%;
+        width: 400px;
     }
     .info {
         flex-wrap: wrap;
