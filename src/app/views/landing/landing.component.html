@@ -20,6 +20,16 @@
     </div>
 
 </header>
+
+<div class="calculator">
+    <p class="warning">CALCULADORA EM CONSTRUÇÃO - CÁLCULO NÃO APRESENTA RESULTADO REAL</p>
+    <h3>Calcule o quanto a sua frota pode ajudar a reduzir a poluição!</h3>
+
+    <label for="qtdVeiculos">Veículos na frota:</label>
+    <input min="0" type="number" name="qtdVeiculos" [(ngModel)]="quantidadeVeiculos" (ngModelChange)="calcular()">
+    <p>Poderia reduzir a poluição em {{resultado}}%!</p>
+</div>
+
 <div class="container">
 
     <section class="info up">

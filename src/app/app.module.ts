@@ -10,22 +10,24 @@ import { TodoComponent } from './views/todo/todo.component';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from 'src/routes';
 import { LandingComponent } from './views/landing/landing.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    NavbarComponent,
-    FooterComponent,
-    AboutComponent,
-    ContactComponent,
-    TodoComponent,
-    LandingComponent
-  ],
-  imports: [
-    AppRoutingModule,
-    BrowserModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent, AboutComponent, NavbarComponent]
+    declarations: [
+        AppComponent,
+        NavbarComponent,
+        FooterComponent,
+        AboutComponent,
+        ContactComponent,
+        TodoComponent,
+        LandingComponent
+    ],
+    imports: [
+        FormsModule,
+        AppRoutingModule,
+        BrowserModule
+    ],
+    providers: [],
+    bootstrap: [AppComponent, AboutComponent, NavbarComponent]
 })
 export class AppModule { }

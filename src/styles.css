@@ -137,9 +137,8 @@ i {
 }
 
 .img-banner {
-    width: 70%;
+    width: 400px;
     margin: 100px 0px;
-    background-image: url(assets/images/logofiap.png);
 }
 
 .info-content h1 {
