@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
-    "start-ang":"ng serve",
+    "start-ang": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
@@ -14,7 +14,6 @@
     "node": "12.18.3",
     "npm": "6.14.6"
   },
-
   "private": true,
   "dependencies": {
     "@angular-devkit/build-angular": "~12.1.0-next.6",
@@ -28,6 +27,7 @@
     "@angular/platform-browser": "~12.1.0-next.6",
     "@angular/platform-browser-dynamic": "~12.1.0-next.6",
     "@angular/router": "~12.1.0-next.6",
+    "bootstrap": "^5.1.0",
     "express": "^4.17.1",
     "path": "^0.12.7",
     "rxjs": "~6.6.0",

@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TodoComponent implements OnInit {
 
+    odsImage = 'assets/images/AGENDA_2030_cpia.png'
+
   constructor() { }
 
   ngOnInit(): void {

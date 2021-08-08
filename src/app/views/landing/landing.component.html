@@ -14,7 +14,8 @@
             </div>
 
             <div class="header-banner index">
-                <img class="img-banner" [src]="logoImage" alt="Alt-Worker">
+                <app-logo></app-logo>
+                <!-- <img class="img-banner" [src]="logoImage" alt="Alt-Worker"> -->
             </div>
         </div>
     </div>
@@ -23,7 +24,7 @@
 
 <div class="calculator">
     <p class="warning">CALCULADORA EM CONSTRUÇÃO - CÁLCULO NÃO APRESENTA RESULTADO REAL</p>
-    <h3>Calcule o quanto a sua frota pode ajudar a reduzir a poluição!</h3>
+    <h5>Calcule o quanto a sua frota pode ajudar a reduzir a poluição!</h5>
 
     <label for="qtdVeiculos">Veículos na frota:</label>
     <input min="0" type="number" name="qtdVeiculos" [(ngModel)]="quantidadeVeiculos" (ngModelChange)="calcular()">
@@ -37,6 +38,9 @@
             <h2>Nossa motivação</h2>
             <p>
                 Nos últimos anos, vimos e ouvimos constantemente o problema da poluição ser abordado em diferentes mídias, estudos e discussões. Além de nocivo ao meio ambiente, os gases também são responsáveis por causar doenças nas pessoas mais expostas a essas toxinas. O objetivo desse estudo é avaliar a eletrificação do transporte como alternativa para ajudar a combater esses problemas.
+            </p>
+            <p>
+                Além disso, também buscamos atender aos apelos da ODS 2030, e fazer nossa parte para ajudar o mundo!
             </p>
         </div>
         <div class="img-info img-right">
@@ -62,6 +66,19 @@
         <div class="member-container text-centered">
             <div class="member-name">
                 <p>
+                    Helouíse Itokazo
+                </p>
+            </div>
+            <div class="member-photo helouise">
+            </div>
+            <div class="member-function"></div>
+            <div class="member-contact">
+                <a href="" class="font-primary">e-mail@email.com</a>
+            </div>
+        </div>
+        <div class="member-container text-centered">
+            <div class="member-name">
+                <p>
                     Rafael Martins Ronqui
                 </p>
             </div>
@@ -72,19 +89,6 @@
                     Orientador
                 </p>
             </div>
-            <div class="member-contact">
-                <a href="" class="font-primary">e-mail@email.com</a>
-            </div>
-        </div>
-        <div class="member-container text-centered">
-            <div class="member-name">
-                <p>
-                    Helouíse Itokazo
-                </p>
-            </div>
-            <div class="member-photo helouise">
-            </div>
-            <div class="member-function"></div>
             <div class="member-contact">
                 <a href="" class="font-primary">e-mail@email.com</a>
             </div>
@@ -118,7 +122,7 @@
         <div class="member-container text-centered">
             <div class="member-name">
                 <p>
-                    Leonardo
+                    Leonardo Lima
                 </p>
             </div>
             <div class="member-photo leonardo">
@@ -132,7 +136,7 @@
         </div>
         <div class="member-container text-centered">
             <div class="member-name">
-                <p>Mateus</p>
+                <p>Mateus Monteiro</p>
             </div>
             <div class="member-photo mateus">
             </div>

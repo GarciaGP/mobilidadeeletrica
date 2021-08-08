@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import '~bootstrap/dist/css/bootstrap.min.css';
 
 /* reset mini */
 
@@ -34,11 +35,11 @@ i {
 }
 
 .bg-primary {
-    background-color: #ed145b;
+    background-color: #ed145b !important;
 }
 
 .bg-secondary {
-    background-color: #151819;
+    background-color: #151819 !important;
 }
 
 .bg-content {
@@ -155,10 +156,15 @@ i {
 }
 
 header {
-    background-size: cover;
     background-repeat: no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 1.5), rgba(0, 0, 0, 0.7)), url('assets/images/bground.jpg');
+    display: flex;
+    background-size: cover;
     text-align: center;
-    background-image: url(assets/images/bground.jpg);
+    height: 50vh;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .header-info-wrapper {
@@ -187,6 +193,8 @@ h2 {
 
 .container {
     min-height: 100vh;
+    max-width: 100%;
+    padding: 0;
 }
 
 .features {
@@ -289,7 +297,10 @@ h2 {
 }
 
 .mateus {
-    background-image: url(assets/images/integrantes/mateus.JPG);
+    background-position: 19px -4px;
+    background-repeat: no-repeat;
+    background-color: #e2e1e7;
+    background-image: url(assets/images/integrantes/mateus.jpeg);
 }
 
 .footer {

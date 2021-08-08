@@ -2,3 +2,18 @@
     width: 75%;
     margin: 0 auto;
 }
+
+.ods-img-container {
+    align-items: center;
+    display: flex;
+    margin-top: 30px;
+    flex-flow: column;
+}
+
+.ods-img-container img {
+    max-width: 100%;
+}
+
+.ods-img-container a {
+    color: #fff;
+}

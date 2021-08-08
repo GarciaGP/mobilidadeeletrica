@@ -11,6 +11,7 @@ import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from 'src/routes';
 import { LandingComponent } from './views/landing/landing.component';
 import { FormsModule } from '@angular/forms';
+import { LogoComponent } from './views/landing/logo/logo.component';
 
 @NgModule({
     declarations: [
@@ -20,7 +21,8 @@ import { FormsModule } from '@angular/forms';
         AboutComponent,
         ContactComponent,
         TodoComponent,
-        LandingComponent
+        LandingComponent,
+        LogoComponent
     ],
     imports: [
         FormsModule,
