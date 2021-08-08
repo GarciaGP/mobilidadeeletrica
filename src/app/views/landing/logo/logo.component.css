@@ -4,3 +4,13 @@
     margin: 100px;
     fill: #e91e63;
 }
+
+@media (max-width: 800px) {
+
+    .svg-container {
+        margin: 0 auto;
+        width: 230px;
+        fill: #e91e63;
+    }
+    
+}

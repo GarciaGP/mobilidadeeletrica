@@ -459,6 +459,21 @@ h4.text-centered {
         flex-wrap: wrap;
         flex-flow: column-reverse;
     }
+
+    .svg-container {
+        margin: 0 auto;
+        width: 230px;
+        fill: #e91e63;
+    }
+
+    .calculator {
+        width: 370px;
+    }
+
+    .squad-block{
+        flex-wrap: wrap;
+    }
+
     .header-info-wrapper {
         flex-flow: column-reverse;
     }
@@ -471,12 +486,26 @@ h4.text-centered {
     .img-banner {
         width: 400px;
     }
+
+    .main-container {
+        width: auto;
+    }
+
+    .content {
+        padding: 30px;
+    }
+
     .info {
         flex-wrap: wrap;
     }
     .info>div {
         width: 100%;
     }
+
+    .card-info {
+        padding: 25px 30px;
+    }
+
     .info.down {
         flex-flow: column-reverse;
     }
