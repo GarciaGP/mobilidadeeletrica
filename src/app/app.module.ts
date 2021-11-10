@@ -12,6 +12,7 @@ import { AppRoutingModule } from 'src/routes';
 import { LandingComponent } from './views/landing/landing.component';
 import { FormsModule } from '@angular/forms';
 import { LogoComponent } from './views/landing/logo/logo.component';
+import { ResultadosComponent } from './views/resultados/resultados.component';
 
 @NgModule({
     declarations: [
@@ -22,7 +23,8 @@ import { LogoComponent } from './views/landing/logo/logo.component';
         ContactComponent,
         TodoComponent,
         LandingComponent,
-        LogoComponent
+        LogoComponent,
+        ResultadosComponent
     ],
     imports: [
         FormsModule,
